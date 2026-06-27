@@ -54,6 +54,23 @@ nav a:hover {
     background: rgba(100, 255, 218, 0.1);
 }
 
+.resume-button {
+    display: inline-block;
+    margin-top: 1rem;
+    background: #64ffda;
+    color: #0a192f;
+    text-decoration: none;
+    padding: 0.65rem 1.1rem;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.resume-button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.18);
+}
+
 section {
     padding: 2rem 1rem;
     max-width: 900px;
