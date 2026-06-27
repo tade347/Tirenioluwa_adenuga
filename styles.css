@@ -1,0 +1,116 @@
+/*
+ * Simple stylesheet for Tirenioluwa Adenuga’s digital portfolio.
+ * This design uses a clean layout with ample white space and a navy accent color.
+ * Each section is clearly separated for easy navigation on desktop and mobile devices.
+ */
+
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f4f7fa;
+    color: #333;
+}
+
+header {
+    background: #0a192f;
+    color: #ffffff;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: #64ffda;
+    text-decoration: none;
+    padding: 0.5rem 0.75rem;
+    border-radius: 4px;
+    transition: background 0.2s ease;
+}
+
+nav a:hover {
+    background: rgba(100, 255, 218, 0.1);
+}
+
+section {
+    padding: 2rem 1rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+section h2 {
+    margin-bottom: 1rem;
+    color: #0a192f;
+    border-bottom: 2px solid #64ffda;
+    display: inline-block;
+    padding-bottom: 0.25rem;
+}
+
+.experience-item,
+.project-item,
+.education-item,
+.cert-item {
+    margin-bottom: 1.5rem;
+    background: #ffffff;
+    padding: 1rem;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.experience-item h3,
+.project-item h3,
+.education-item h3,
+.cert-item h3 {
+    margin-bottom: 0.5rem;
+    color: #0a192f;
+}
+
+.experience-item ul,
+.project-item ul,
+.cert-item ul {
+    list-style: disc inside;
+    margin-left: 1rem;
+}
+
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.skill {
+    background: #e6f7ff;
+    color: #0a192f;
+    padding: 0.5rem 0.75rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #0a192f;
+    color: #ffffff;
+}
